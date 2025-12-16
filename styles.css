@@ -1,0 +1,111 @@
+body {
+  background: radial-gradient(circle at top, #1b1f3b, #000);
+  color: white;
+  font-family: Georgia, serif;
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  background-color: rgba(255,255,255,0.1);
+  color: white;
+  border: 1px solid white;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+img {
+  width: 70%;
+  max-width: 400px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.frase {
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.poema {
+  margin: 20px auto;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+/* POPUP */
+#popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+}
+
+#popup-conteudo {
+  background: #111;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 80px auto;
+}
+
+.container-botao {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.botao-365 {
+  display: inline-block;
+  padding: 15px 30px;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.botao-365:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.bloco-foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at top, #1b1f3b, #000);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#login input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    text-align: center;
+}
+
+#login button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #ffb6c1;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
