@@ -46,6 +46,26 @@ function verificarSenha() {
             erro.innerText = "Última dica : musica do Luan Pereira";
         }
     }
+
+    function criarBorboleta() {
+    const borboleta = document.createElement("div");
+    borboleta.classList.add("borboleta");
+    borboleta.innerText = Math.random() > 0.5 ? "🦋" : "✨";
+
+
+    borboleta.style.left = Math.random() * window.innerWidth + "px";
+    borboleta.style.fontSize = (14 + Math.random() * 14) + "px";
+    borboleta.style.animationDuration = (8 + Math.random() * 6) + "s";
+
+    document.body.appendChild(borboleta);
+
+    setTimeout(() => {
+        borboleta.remove();
+    }, 14000);
 }
+
+
+}
+
 
 
